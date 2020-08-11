@@ -33,9 +33,8 @@ class ToDoList extends Component{
           {
             this.state.list.map((item , index) =>{
               return (
-                <div>
                   <ToDoItem key={index} handleDelete={this.handleDelete} item={item} index={index}/>
-                </div>
+
               )
             })
           }
@@ -50,6 +49,7 @@ class ToDoList extends Component{
     //     inputValue : e.target.value
     //   }
     // })
+    
     const value = e.target.value    //因為函式寫法為異步執行所以必須先把值保存起來
     this.setState(()=>({            //Return 簡寫寫法
       inputValue : value
