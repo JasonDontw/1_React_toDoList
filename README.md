@@ -1,3 +1,9 @@
+
+
+![image](https://github.com/JasonDontw/ToDoList/blob/master/display.gif)
+
+
+
 ## DOM
 ## 1. 有State數據
 ## 2. 有JSX模板
@@ -37,3 +43,7 @@
 ## 比較:
 ## 在JS中生成一個JS描述，所需性能是極小的，所以在第6步用虛擬DOM取代了實體DOM的生成，提升極大性能
 ## 且在第7步JS之間的比較也比DOM之間的比較性能損耗大大降低
+
+
+
+
